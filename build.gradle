@@ -11,6 +11,11 @@ apply plugin: "jacoco"
 
 group "org.example"
 
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
 repositories {
     mavenCentral()
 }
